@@ -1,7 +1,9 @@
 #include"main.h"
 /**
  * main - check the code
- *
+ * _isdigit
+ * *@0 : first number
+ * *@9 : second number
  * Return: Always 0.
  */
 
