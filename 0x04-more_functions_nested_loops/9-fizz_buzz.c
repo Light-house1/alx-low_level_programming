@@ -11,11 +11,11 @@ int main()
 		{
 			printf("FizzBuzz ");
 		}
-		if (c % 5 == 0)
+		else if (c % 5 == 0)
 		{
 			printf("Buzz ");
 		}
-		if (c % 3 == 0)
+		else if (c % 3 == 0)
 		{
 			printf("Fizz ");
 		}
