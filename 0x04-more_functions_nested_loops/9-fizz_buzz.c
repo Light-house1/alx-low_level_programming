@@ -1,10 +1,13 @@
 #include<stdio.h>
-/** Fizz-Buzz test” is an interview question
- *  that prints the numbers from 1 to 100
+/**
+* main - entry block
+* @void: no arguments
+* Return: 0 success
 */
-int main()
+int main(void)
 {
 	int c;
+
 	for (c = 1; c <= 100; c++)
 	{
 		if (c % 15 == 0)
@@ -20,8 +23,7 @@ int main()
 			printf("Fizz ");
 		}
 		else
-			printf("%d ",c);
-
+			printf("%d ", c);
 	}
 	printf("\n");
 	return (0);
