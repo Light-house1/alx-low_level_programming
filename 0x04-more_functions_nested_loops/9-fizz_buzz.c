@@ -1,31 +1,31 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
 * main - entry block
-* @void: no arguments
-* Return: 0 success
+* @void: no argument
+* Return: 0 Success
 */
 int main(void)
 {
-	int c;
+	int i;
 
-	for (c = 1; c < 100; c++)
-	{
-		if (c % 15 == 0)
+	for (i = 1; i < 100; i++)
+		if (i % 15 == 0)
 		{
 			printf("FizzBuzz ");
 		}
-		else if (c % 5 == 0)
+		else if (i % 5 == 0)
 		{
 			printf("Buzz ");
 		}
-		else if (c % 3 == 0)
+		else if (i % 3 == 0)
 		{
 			printf("Fizz ");
 		}
 		else
-			printf("%d ", c);
-	}
-	printf("Buzz ");
+		{
+			printf("%d ", i);
+		}
+	printf("Buzz");
 	printf("\n");
 	return (0);
 }
