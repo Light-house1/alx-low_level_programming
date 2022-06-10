@@ -1,9 +1,8 @@
 #include"main.h"
 /**
  * main - check the code
- * _isdigit
- * *@0 : first number
- * *@9 : second number
+ * _isdigit - function that check if it is a digit
+ * @c: takes in a character or digit
  * Return: Always 0.
  */
 
