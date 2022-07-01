@@ -11,19 +11,22 @@
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-    char *_array;
-    unsigned int i;
+	void *mem;
+	char *filler;
+	unsigned int index;
 
-    if ( nmemb == 0 || size == 0)
-        return(NULL);
+	if (nmemb == 0 || size == 0)
+		return (NULL);
 
-    _array = malloc(nmemb * size);
+	mem = malloc(size * nmemb);
 
-    if( _array == NULL)
-    return(NULL);
+	if (mem == NULL)
+		return (NULL);
 
-    for( i = 0; i < (nmemb * size); i++)
-        _array[i] = '\0';
+	filler = mem;
 
-    return(_array);
+	for (index = 0; index < (size * nmemb); index++)
+		filler[index] = '\0';
+
+	return (mem);
 }
