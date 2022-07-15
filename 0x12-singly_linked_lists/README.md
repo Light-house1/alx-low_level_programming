@@ -1,3 +1,1 @@
-
-    When and why using linked lists vs arrays
-    How to build and use linked lists
+In this project, I practiced building and using singly linked lists in C while learning when and why to use linked lists versus arrays.
